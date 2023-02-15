@@ -22,7 +22,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginBottom="4dp"
-        android:backgroundTint="#3474E8"
+        android:backgroundTint="#00BCD4"
         android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/addBtn"
@@ -34,7 +34,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
-        android:backgroundTint="#CFCF80"
+        android:backgroundTint="#FFEB3B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/deleteBtn"
         app:srcCompat="@android:drawable/ic_input_add" />
