@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String url = "https://github.com/umarfaizan-dev/sabqi";
+                final String url = "https://github.com/umarfaizan-dev/sabqi/commits/main";
                 Uri webpage = Uri.parse(url);
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);

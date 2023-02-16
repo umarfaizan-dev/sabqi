@@ -55,8 +55,7 @@ public class Add_Data_Student extends AppCompatActivity {
 
                 Student newStudent = new Student(name.getText().toString(),id);
 
-                db.AddData(newStudent, date.getText().toString(), manzil.getText().toString(),
-                                        sabaq.getText().toString(), sabqi.getText().toString());
+                db.AddData(newStudent, date.getText().toString(), manzil.getText().toString(), sabaq.getText().toString(), sabqi.getText().toString());
 
                 finish();
             }
